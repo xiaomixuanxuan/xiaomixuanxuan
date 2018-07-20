@@ -2719,6 +2719,7 @@ main {
   min-width: 40%;
   outline: 1px solid #363636;
   outline-offset: 10px;
+  cursor: pointer;
 }
 .scroll-top {
   position: fixed;
@@ -3224,4 +3225,33 @@ main {
 .section.mt{margin-top:50px}
 .slde .image-slider-wrap {
   margin-bottom: 0px;
+}
+
+
+
+.jianli{
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  position:fixed;
+  left: 0;
+  top:0;
+  background: gray;
+  margin-top:90px;
+  text-align: center;
+}
+#btn{
+  width:20px;
+  height: 20px;
+  position: fixed;
+  right: 19px;
+  top: 81px;
+  border-radius: 50%;
+  background: #ccc;
+  text-align: center;
+  line-height: 19px;
+}
+#jianliIMG{
+  margin:0 auto;
 }

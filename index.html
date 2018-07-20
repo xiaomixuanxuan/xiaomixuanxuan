@@ -62,6 +62,10 @@
 						<h1>We Are Minimalist</h1>
 						<p>Creative Digital Agency</p>
 					</div>
+					<div class="jianli">
+						<input type="button" id="btn" value="X">
+						<img src="img/jianli.png" alt="" id="jianliIMG">
+					</div>
 				</div>
 			</div>
 		</section>
@@ -532,5 +536,16 @@
 <!-- Custom -->
 <script src="js/main.js"></script>
 <script src="js/script.js"></script>
+<script>
+	var alignerItem = document.querySelector(".aligner-item");
+	var jianli = document.querySelector(".jianli");
+	var btn = document.getElementById('btn');
+	alignerItem.onclick = function(){
+		jianli.style.display = 'block';
+	}
+	btn.onclick = function(){
+		jianli.style.display = "none";
+	}
+</script>
 </body>
 </html>
